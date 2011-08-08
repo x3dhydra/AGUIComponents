@@ -16,6 +16,17 @@
 		19B8A5C913EF630C00879E0B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19B8A5C713EF630C00879E0B /* MainWindow.xib */; };
 		19B8A5D813EF641400879E0B /* AGAsynchronousImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B8A5D713EF641400879E0B /* AGAsynchronousImageView.m */; };
 		19B8A5E413EF65CD00879E0B /* AsynchImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B8A5E313EF65CD00879E0B /* AsynchImageViewController.m */; };
+		19B8A60D13EFA0DC00879E0B /* AGNotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B8A60A13EFA0DC00879E0B /* AGNotificationView.m */; };
+		19B8A60E13EFA0DC00879E0B /* AGUINotificationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B8A60C13EFA0DC00879E0B /* AGUINotificationQueue.m */; };
+		19B8A61613EFA30800879E0B /* NotificationQueueController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B8A61513EFA30800879E0B /* NotificationQueueController.m */; };
+		19B8A62113EFA34200879E0B /* 0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 19B8A61913EFA34200879E0B /* 0.jpeg */; };
+		19B8A62213EFA34200879E0B /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 19B8A61A13EFA34200879E0B /* 1.jpeg */; };
+		19B8A62313EFA34200879E0B /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 19B8A61B13EFA34200879E0B /* 2.jpeg */; };
+		19B8A62413EFA34200879E0B /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 19B8A61C13EFA34200879E0B /* 3.jpeg */; };
+		19B8A62513EFA34200879E0B /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 19B8A61D13EFA34200879E0B /* 4.jpeg */; };
+		19B8A62613EFA34200879E0B /* 5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 19B8A61E13EFA34200879E0B /* 5.jpeg */; };
+		19B8A62713EFA34200879E0B /* 6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 19B8A61F13EFA34200879E0B /* 6.jpeg */; };
+		19B8A62813EFA34200879E0B /* 7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 19B8A62013EFA34200879E0B /* 7.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +46,20 @@
 		19B8A5E213EF65CD00879E0B /* AsynchImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsynchImageViewController.h; path = Classes/DemoControllers/AsynchImageViewController.h; sourceTree = "<group>"; };
 		19B8A5E313EF65CD00879E0B /* AsynchImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsynchImageViewController.m; path = Classes/DemoControllers/AsynchImageViewController.m; sourceTree = "<group>"; };
 		19B8A5E513EF668300879E0B /* ARCLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCLogic.h; sourceTree = "<group>"; };
+		19B8A60913EFA0DC00879E0B /* AGNotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGNotificationView.h; path = Classes/AGUINotificationQueue/AGNotificationView.h; sourceTree = "<group>"; };
+		19B8A60A13EFA0DC00879E0B /* AGNotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGNotificationView.m; path = Classes/AGUINotificationQueue/AGNotificationView.m; sourceTree = "<group>"; };
+		19B8A60B13EFA0DC00879E0B /* AGUINotificationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGUINotificationQueue.h; path = Classes/AGUINotificationQueue/AGUINotificationQueue.h; sourceTree = "<group>"; };
+		19B8A60C13EFA0DC00879E0B /* AGUINotificationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGUINotificationQueue.m; path = Classes/AGUINotificationQueue/AGUINotificationQueue.m; sourceTree = "<group>"; };
+		19B8A61413EFA30800879E0B /* NotificationQueueController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationQueueController.h; path = Classes/DemoControllers/NotificationQueueController.h; sourceTree = "<group>"; };
+		19B8A61513EFA30800879E0B /* NotificationQueueController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationQueueController.m; path = Classes/DemoControllers/NotificationQueueController.m; sourceTree = "<group>"; };
+		19B8A61913EFA34200879E0B /* 0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 0.jpeg; path = Resources/0.jpeg; sourceTree = "<group>"; };
+		19B8A61A13EFA34200879E0B /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpeg; path = Resources/1.jpeg; sourceTree = "<group>"; };
+		19B8A61B13EFA34200879E0B /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpeg; path = Resources/2.jpeg; sourceTree = "<group>"; };
+		19B8A61C13EFA34200879E0B /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpeg; path = Resources/3.jpeg; sourceTree = "<group>"; };
+		19B8A61D13EFA34200879E0B /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpeg; path = Resources/4.jpeg; sourceTree = "<group>"; };
+		19B8A61E13EFA34200879E0B /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpeg; path = Resources/5.jpeg; sourceTree = "<group>"; };
+		19B8A61F13EFA34200879E0B /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 6.jpeg; path = Resources/6.jpeg; sourceTree = "<group>"; };
+		19B8A62013EFA34200879E0B /* 7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 7.jpeg; path = Resources/7.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +106,7 @@
 		19B8A5BB13EF630C00879E0B /* AGUIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				19B8A61713EFA33200879E0B /* Resources */,
 				19B8A5E513EF668300879E0B /* ARCLogic.h */,
 				19B8A5DE13EF659600879E0B /* DemoControllers */,
 				19B8A5DD13EF658800879E0B /* View */,
@@ -115,6 +141,7 @@
 		19B8A5DD13EF658800879E0B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				19B8A5EA13EF981D00879E0B /* UINotificationQueue */,
 				19B8A5D313EF63DA00879E0B /* AsynchronousImageView */,
 			);
 			name = View;
@@ -123,10 +150,46 @@
 		19B8A5DE13EF659600879E0B /* DemoControllers */ = {
 			isa = PBXGroup;
 			children = (
+				19B8A61413EFA30800879E0B /* NotificationQueueController.h */,
+				19B8A61513EFA30800879E0B /* NotificationQueueController.m */,
 				19B8A5E213EF65CD00879E0B /* AsynchImageViewController.h */,
 				19B8A5E313EF65CD00879E0B /* AsynchImageViewController.m */,
 			);
 			name = DemoControllers;
+			sourceTree = "<group>";
+		};
+		19B8A5EA13EF981D00879E0B /* UINotificationQueue */ = {
+			isa = PBXGroup;
+			children = (
+				19B8A60913EFA0DC00879E0B /* AGNotificationView.h */,
+				19B8A60A13EFA0DC00879E0B /* AGNotificationView.m */,
+				19B8A60B13EFA0DC00879E0B /* AGUINotificationQueue.h */,
+				19B8A60C13EFA0DC00879E0B /* AGUINotificationQueue.m */,
+			);
+			name = UINotificationQueue;
+			sourceTree = "<group>";
+		};
+		19B8A61713EFA33200879E0B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				19B8A61813EFA33A00879E0B /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		19B8A61813EFA33A00879E0B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				19B8A61913EFA34200879E0B /* 0.jpeg */,
+				19B8A61A13EFA34200879E0B /* 1.jpeg */,
+				19B8A61B13EFA34200879E0B /* 2.jpeg */,
+				19B8A61C13EFA34200879E0B /* 3.jpeg */,
+				19B8A61D13EFA34200879E0B /* 4.jpeg */,
+				19B8A61E13EFA34200879E0B /* 5.jpeg */,
+				19B8A61F13EFA34200879E0B /* 6.jpeg */,
+				19B8A62013EFA34200879E0B /* 7.jpeg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +244,14 @@
 			files = (
 				19B8A5C013EF630C00879E0B /* InfoPlist.strings in Resources */,
 				19B8A5C913EF630C00879E0B /* MainWindow.xib in Resources */,
+				19B8A62113EFA34200879E0B /* 0.jpeg in Resources */,
+				19B8A62213EFA34200879E0B /* 1.jpeg in Resources */,
+				19B8A62313EFA34200879E0B /* 2.jpeg in Resources */,
+				19B8A62413EFA34200879E0B /* 3.jpeg in Resources */,
+				19B8A62513EFA34200879E0B /* 4.jpeg in Resources */,
+				19B8A62613EFA34200879E0B /* 5.jpeg in Resources */,
+				19B8A62713EFA34200879E0B /* 6.jpeg in Resources */,
+				19B8A62813EFA34200879E0B /* 7.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +266,9 @@
 				19B8A5C613EF630C00879E0B /* AGUIComponentsAppDelegate.m in Sources */,
 				19B8A5D813EF641400879E0B /* AGAsynchronousImageView.m in Sources */,
 				19B8A5E413EF65CD00879E0B /* AsynchImageViewController.m in Sources */,
+				19B8A60D13EFA0DC00879E0B /* AGNotificationView.m in Sources */,
+				19B8A60E13EFA0DC00879E0B /* AGUINotificationQueue.m in Sources */,
+				19B8A61613EFA30800879E0B /* NotificationQueueController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

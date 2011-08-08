@@ -23,6 +23,7 @@
 
 #import "AGUIComponentsAppDelegate.h"
 #import "AsynchImageViewController.h"
+#import "NotificationQueueController.h"
 
 @implementation AGUIComponentsAppDelegate
 
@@ -33,7 +34,7 @@
     // Override point for customization after application launch.
     [self.window makeKeyAndVisible];
     
-    UIViewController *controller = [[AsynchImageViewController alloc] init];
+    UIViewController *controller = [[NotificationQueueController alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:controller];
     self.window.rootViewController = nav;
     
