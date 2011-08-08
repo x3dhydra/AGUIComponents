@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19B8A5B613EF630C00879E0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B8A5B513EF630C00879E0B /* UIKit.framework */; };
+		19B8A5B813EF630C00879E0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B8A5B713EF630C00879E0B /* Foundation.framework */; };
+		19B8A5BA13EF630C00879E0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B8A5B913EF630C00879E0B /* CoreGraphics.framework */; };
+		19B8A5C013EF630C00879E0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19B8A5BE13EF630C00879E0B /* InfoPlist.strings */; };
+		19B8A5C213EF630C00879E0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B8A5C113EF630C00879E0B /* main.m */; };
+		19B8A5C613EF630C00879E0B /* AGUIComponentsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B8A5C513EF630C00879E0B /* AGUIComponentsAppDelegate.m */; };
+		19B8A5C913EF630C00879E0B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19B8A5C713EF630C00879E0B /* MainWindow.xib */; };
+		19B8A5D813EF641400879E0B /* AGAsynchronousImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B8A5D713EF641400879E0B /* AGAsynchronousImageView.m */; };
+		19B8A5E413EF65CD00879E0B /* AsynchImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B8A5E313EF65CD00879E0B /* AsynchImageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19B8A5B113EF630C00879E0B /* AGUIComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGUIComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B8A5B513EF630C00879E0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		19B8A5B713EF630C00879E0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		19B8A5B913EF630C00879E0B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		19B8A5BD13EF630C00879E0B /* AGUIComponents-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AGUIComponents-Info.plist"; sourceTree = "<group>"; };
+		19B8A5BF13EF630C00879E0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		19B8A5C113EF630C00879E0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19B8A5C313EF630C00879E0B /* AGUIComponents-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AGUIComponents-Prefix.pch"; sourceTree = "<group>"; };
+		19B8A5C413EF630C00879E0B /* AGUIComponentsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGUIComponentsAppDelegate.h; sourceTree = "<group>"; };
+		19B8A5C513EF630C00879E0B /* AGUIComponentsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGUIComponentsAppDelegate.m; sourceTree = "<group>"; };
+		19B8A5C813EF630C00879E0B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		19B8A5D613EF641400879E0B /* AGAsynchronousImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGAsynchronousImageView.h; path = Classes/AGAsynchronousImageView/AGAsynchronousImageView.h; sourceTree = "<group>"; };
+		19B8A5D713EF641400879E0B /* AGAsynchronousImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGAsynchronousImageView.m; path = Classes/AGAsynchronousImageView/AGAsynchronousImageView.m; sourceTree = "<group>"; };
+		19B8A5E213EF65CD00879E0B /* AsynchImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsynchImageViewController.h; path = Classes/DemoControllers/AsynchImageViewController.h; sourceTree = "<group>"; };
+		19B8A5E313EF65CD00879E0B /* AsynchImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsynchImageViewController.m; path = Classes/DemoControllers/AsynchImageViewController.m; sourceTree = "<group>"; };
+		19B8A5E513EF668300879E0B /* ARCLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCLogic.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19B8A5AE13EF630C00879E0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B8A5B613EF630C00879E0B /* UIKit.framework in Frameworks */,
+				19B8A5B813EF630C00879E0B /* Foundation.framework in Frameworks */,
+				19B8A5BA13EF630C00879E0B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19B8A5A613EF630B00879E0B = {
+			isa = PBXGroup;
+			children = (
+				19B8A5BB13EF630C00879E0B /* AGUIComponents */,
+				19B8A5B413EF630C00879E0B /* Frameworks */,
+				19B8A5B213EF630C00879E0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19B8A5B213EF630C00879E0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19B8A5B113EF630C00879E0B /* AGUIComponents.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19B8A5B413EF630C00879E0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19B8A5B513EF630C00879E0B /* UIKit.framework */,
+				19B8A5B713EF630C00879E0B /* Foundation.framework */,
+				19B8A5B913EF630C00879E0B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19B8A5BB13EF630C00879E0B /* AGUIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				19B8A5E513EF668300879E0B /* ARCLogic.h */,
+				19B8A5DE13EF659600879E0B /* DemoControllers */,
+				19B8A5DD13EF658800879E0B /* View */,
+				19B8A5C413EF630C00879E0B /* AGUIComponentsAppDelegate.h */,
+				19B8A5C513EF630C00879E0B /* AGUIComponentsAppDelegate.m */,
+				19B8A5C713EF630C00879E0B /* MainWindow.xib */,
+				19B8A5BC13EF630C00879E0B /* Supporting Files */,
+			);
+			path = AGUIComponents;
+			sourceTree = "<group>";
+		};
+		19B8A5BC13EF630C00879E0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19B8A5BD13EF630C00879E0B /* AGUIComponents-Info.plist */,
+				19B8A5BE13EF630C00879E0B /* InfoPlist.strings */,
+				19B8A5C113EF630C00879E0B /* main.m */,
+				19B8A5C313EF630C00879E0B /* AGUIComponents-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19B8A5D313EF63DA00879E0B /* AsynchronousImageView */ = {
+			isa = PBXGroup;
+			children = (
+				19B8A5D613EF641400879E0B /* AGAsynchronousImageView.h */,
+				19B8A5D713EF641400879E0B /* AGAsynchronousImageView.m */,
+			);
+			name = AsynchronousImageView;
+			sourceTree = "<group>";
+		};
+		19B8A5DD13EF658800879E0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				19B8A5D313EF63DA00879E0B /* AsynchronousImageView */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		19B8A5DE13EF659600879E0B /* DemoControllers */ = {
+			isa = PBXGroup;
+			children = (
+				19B8A5E213EF65CD00879E0B /* AsynchImageViewController.h */,
+				19B8A5E313EF65CD00879E0B /* AsynchImageViewController.m */,
+			);
+			name = DemoControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19B8A5B013EF630C00879E0B /* AGUIComponents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B8A5CC13EF630C00879E0B /* Build configuration list for PBXNativeTarget "AGUIComponents" */;
+			buildPhases = (
+				19B8A5AD13EF630C00879E0B /* Sources */,
+				19B8A5AE13EF630C00879E0B /* Frameworks */,
+				19B8A5AF13EF630C00879E0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AGUIComponents;
+			productName = AGUIComponents;
+			productReference = 19B8A5B113EF630C00879E0B /* AGUIComponents.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19B8A5A813EF630B00879E0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Austen Green Consulting";
+			};
+			buildConfigurationList = 19B8A5AB13EF630B00879E0B /* Build configuration list for PBXProject "AGUIComponents" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 19B8A5A613EF630B00879E0B;
+			productRefGroup = 19B8A5B213EF630C00879E0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19B8A5B013EF630C00879E0B /* AGUIComponents */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19B8A5AF13EF630C00879E0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B8A5C013EF630C00879E0B /* InfoPlist.strings in Resources */,
+				19B8A5C913EF630C00879E0B /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19B8A5AD13EF630C00879E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B8A5C213EF630C00879E0B /* main.m in Sources */,
+				19B8A5C613EF630C00879E0B /* AGUIComponentsAppDelegate.m in Sources */,
+				19B8A5D813EF641400879E0B /* AGAsynchronousImageView.m in Sources */,
+				19B8A5E413EF65CD00879E0B /* AsynchImageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		19B8A5BE13EF630C00879E0B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B8A5BF13EF630C00879E0B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		19B8A5C713EF630C00879E0B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B8A5C813EF630C00879E0B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19B8A5CA13EF630C00879E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		19B8A5CB13EF630C00879E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19B8A5CD13EF630C00879E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AGUIComponents/AGUIComponents-Prefix.pch";
+				INFOPLIST_FILE = "AGUIComponents/AGUIComponents-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		19B8A5CE13EF630C00879E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AGUIComponents/AGUIComponents-Prefix.pch";
+				INFOPLIST_FILE = "AGUIComponents/AGUIComponents-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19B8A5AB13EF630B00879E0B /* Build configuration list for PBXProject "AGUIComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B8A5CA13EF630C00879E0B /* Debug */,
+				19B8A5CB13EF630C00879E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B8A5CC13EF630C00879E0B /* Build configuration list for PBXNativeTarget "AGUIComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B8A5CD13EF630C00879E0B /* Debug */,
+				19B8A5CE13EF630C00879E0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19B8A5A813EF630B00879E0B /* Project object */;
+}
